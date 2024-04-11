@@ -1,0 +1,4 @@
+Plaintext: ABADBEGINNINGMAKES
+Rails: 9
+Encrypted: A               E  B             K S  A           A      D         M        B       G          E     N            G   I              I N                N         
+Decrypted: AE             K      E               A       G       B S   M                    BG                     N   I       A         I            D        N            N

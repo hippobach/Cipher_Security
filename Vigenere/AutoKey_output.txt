@@ -1,0 +1,5 @@
+Input: MONEYMAKESTHE
+Key: YOUREONMONEYM
+Key New: YOUREONMONEYM
+Vigenere Encryption: KCHVCANWSFXFQ
+Vigenere Decryption: MONEYMAKESTHE

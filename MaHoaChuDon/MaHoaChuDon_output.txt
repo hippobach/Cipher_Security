@@ -1,0 +1,4 @@
+input: AWOMANGIVESANDFO
+key: THLEYNPSXADWKFUBOGMQVJRCIZ
+Monoalphabetic Encyption : TRUKTFPXJYMTFENU
+Monoalphabetic Decyption : AWOMANGIVESANDFO

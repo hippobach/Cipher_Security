@@ -1,0 +1,7 @@
+Input: MONEYMAKESTHE
+Key: YOUREON
+Key new: YOUREONMONEYM
+Vigenere Encryption: KCHVCANWSFXFQ
+Vigenere Decryption: MONEYMAKESTHE
+Vigenere Auto Key Encryption: KCHVCANUGZOJE
+Vigenere Auto Key Decryption: MONEYMAISMKLS
