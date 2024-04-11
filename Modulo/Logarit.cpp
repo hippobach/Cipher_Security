@@ -10,10 +10,12 @@ using namespace std;
 */
 int main(){
 	int a,b,n;
+	freopen("inputLog.txt", "r", stdin);
+    freopen("outpulog.txt", "w", stdout);
 	cout<<"-------------------------log(a,b) mod n-------------------------"<<endl;
-	cout<<"Nhap a: "; cin>>a;
-	cout<<"Nhap b: "; cin>>b;
-	cout<<"Nhap n: "; cin>>n;
+	cin>>a;
+	cin>>b;
+	cin>>n;
 	
 	bool fag = false;
 	for(int i=1; i< n; i++){

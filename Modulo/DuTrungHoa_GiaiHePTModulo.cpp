@@ -1,6 +1,7 @@
 #include<iostream>
 #include<math.h>
 #include<vector>
+#include <fstream>
 
 using namespace std;
 
@@ -25,14 +26,30 @@ int inverseModuloWithEuclid(int a, int n) {
 }
 
 int main() {
-    int n,m = 1;
-    cout << "Nhap so phan tu cua he: "; cin >> n;
+	 ifstream inputFile("HePt_input.txt");
+    ofstream outputFile("HePt_output.txt");
+
+    if (!inputFile) {
+        cout << "Failed to open input file." << endl;
+        return 1;
+    }
+
+    if (!outputFile) {
+        cout << "Failed to open output file." << endl;
+        return 1;
+    }
+    
+    int n;
+    inputFile >> n;
+    
+    int m = 1;
+    //cout << "Nhap so phan tu cua he: "; cin >> n;
     int s[n], a[n];
     for(int i = 0; i < n; i++) {
-        cin >> s[i];
+       inputFile >> s[i];
     }
     for(int i = 0; i < n; i++) {
-        cin >> a[i];
+       inputFile >> a[i];
     }
     for(int i = 0;i < n; i++) {
         m *= s[i];
@@ -54,4 +71,7 @@ int main() {
     //     cout << a[i] << " ";
     // }
     cout << "He phuong trinh co gia tri: " << res % m << endl;
+    
+    outputFile << "He phuong trinh co gia tri: " << res % m << endl;
+  
 }
