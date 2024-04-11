@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <math.h>
+#include<iostream>
+#include<math.h>
+#include<vector>
+#include<algorithm>
 #include <bits/stdc++.h>
 using namespace std;
 string hex2bin(string s)
@@ -234,9 +240,14 @@ int main()
 	cin>>pt;
 	cout<<"Enter key(in hexadecimal): ";
 	cin>>key;*/
-
-	pt = "B35F59255E3BCB54";
-	key = "32D604E6C4504149";
+//
+//	pt = "B35F59255E3BCB54";
+//	key = "32D604E6C4504149";
+//	
+	freopen("input.txt","r",stdin);
+	freopen("output.txt","w",stdout);
+	cin>>pt;
+	cin>>key;
 	// Key Generation
 
 	// Hex to binary
