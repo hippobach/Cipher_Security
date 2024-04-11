@@ -81,7 +81,11 @@ int powMod(int a, int b, int m) {
 
 int main() {
     int a,m,n;
-    cin >> a >> m >> n;
+    freopen("inputEuler.txt", "r", stdin);
+    freopen("outputEuler.txt", "w", stdout);
+    cin >> a;
+    cin >> m;
+    cin >> n;
     int A = a % n;
     int phi;
     vector<int> thuaSo;
