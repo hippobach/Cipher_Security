@@ -1,3 +1,3 @@
-a) Khoa cong khai cua An (yA) = 15
-b) Chu ky so cua An cho ban tin M (r, s) = (2, 6)
+a) Khoa cong khai cua An (yA) = 14
+b) Chu ky so cua An cho ban tin M (r, s) = (21, 19)
 c) Chu ky so hop le. Ba xac minh thanh cong.

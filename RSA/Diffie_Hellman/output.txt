@@ -1,2 +1,2 @@
-a) Khoa cong khai cua An: yA = 40, K = 160
-b) Khoa cong khai cua Ba: yB = 248, K = 160
+a) Khoa cong khai cua An: yA = 4267, K = 5944
+b) Khoa cong khai cua Ba: yB = 256, K = 5944
