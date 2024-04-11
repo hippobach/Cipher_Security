@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <math.h>
+#include<iostream>
+#include<math.h>
+#include<vector>
+#include<algorithm>
+using namespace std;
 
 int isPrimitiveRoot(long long a, long long n) {
     if (a <= 1 || a >= n || n <= 1) {
@@ -30,16 +35,21 @@ int isPrimitiveRoot(long long a, long long n) {
 }
 
 int main() {
+    freopen("inputCNT.txt", "r", stdin);
+    freopen("outputCNT.txt", "w", stdout);
     long long a, n;
-    printf("Enter a: ");
-    scanf("%lld", &a);
-    printf("Enter n: ");
-    scanf("%lld", &n);
+    cin >> a;
+    cin >> n;
+//    printf("Enter a: ");
+//    scanf("%lld", &a);
+//    printf("Enter n: ");
+//    scanf("%lld", &n);
 
     if (isPrimitiveRoot(a, n)) {
         printf("%lld is a primitive root of %lld\n", a, n);
+        cout<<a<<" is a primitive root of "<<n<<"\n";
     } else {
-        printf("%lld is not a primitive root of %lld\n", a, n);
+    	 cout<<a<<" is not a primitive root of "<<n<<"\n";
     }
 
     return 0;

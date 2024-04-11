@@ -1,6 +1,7 @@
 #include<iostream>
 #include<math.h>
 #include<vector>
+#include <fstream>
 using namespace std;
 
 void PhanTichThuaSoNguyenTo(int n, vector<int> &thuaSo) {
@@ -99,7 +100,24 @@ int inverseModuloWithEuclid(int a, int n) {
 }
 int main() {
     int a,m,n;
-    cin >> a >> m >> n;
+    
+    ifstream inputFile("PDTH_input.txt");
+    ofstream outputFile("PDTH_output.txt");
+
+    if (!inputFile) {
+        cout << "Failed to open input file." << endl;
+        return 1;
+    }
+
+    if (!outputFile) {
+        cout << "Failed to open output file." << endl;
+        return 1;
+    }
+    
+
+    inputFile >>a; 
+	inputFile>> m ;
+	inputFile>> n;
     // int A = a % n;
     int phi, res = 0;
     vector<int> thuaSo;
@@ -139,6 +157,6 @@ int main() {
     // for(int i = 0; i < k; i++) {
     //   cout << Modulo[i] << " ";
     // } 
-    cout <<"Luy thua modulo bang CRT: " << res % n;
+    outputFile <<"Luy thua modulo bang CRT: " << res % n;
     return 0;
 }
