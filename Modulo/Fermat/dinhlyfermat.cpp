@@ -10,7 +10,11 @@ using namespace std;
 
 int main(){
 	int a,m,n;
-	cout<<"Nhap lan luot a,m,n :";cin>>a>>m>>n;
+	freopen("inputFermat.txt","r", stdin);
+	freopen("outputFermat.txt","w",stdout);
+	cin>>a;
+	cin>>m;
+	cin>>n;
 	if(kiem_tra_nguyen_to(n) && m > n){
 		int _m = m;
 		if(__gcd(a,n) == 1){ // dang 1
